@@ -1,0 +1,2 @@
+# APP_Privacy_Policy_analyze
+第26期大创项目：APP违规收集使用个人信息检测，隐私政策分析部分
