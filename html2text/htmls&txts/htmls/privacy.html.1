@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>隐私政策</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <link rel="shotcut icon" href="https://www.baidu.com/favicon.ico">
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    html,
+    body {
+        height: 100%;
+    }
+    .darkmode {
+        color: rgba(255, 255, 255, .8);
+        background-color: #080808;
+    }
+    #content {
+        border: 0;
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <script src="//s.bdstatic.com/common/agreement/darkmode_53b49bd.js"></script>
+    <script>
+    (function () {
+        var userAgent = window.navigator.userAgent;
+        var $body = document.body || document.getElementsByTagName('body')[0];
+        var $iframe = document.createElement('iframe');
+
+        var isLite = /(lite|info) (baiduboxapp|biduboxapp)\//i.test(userAgent);
+        var isKankan = /baiduboxvision\//i.test(userAgent);
+        var isBrowser = /flyflow\//i.test(userAgent);
+        var isHao123 = /hao123\//i.test(userAgent);
+        var isMissionBox = / mission baiduboxapp\//i.test(userAgent) || /mission\//i.test(userAgent);
+        var isTomas = /tomas\//i.test(userAgent);
+        var isSenior = /baiduboxsenior\//i.test(userAgent);
+
+        // compare version
+        function versionCompare(version1, version2) {
+            version2 += '';
+            version1 += '';
+
+            var a = version1.split('.'),
+                b = version2.split('.'),
+                i = 0,
+                len = Math.max(a.length, b.length);
+
+            for (; i < len; i++) {
+                if ((a[i] && !b[i] && parseInt(a[i]) > 0) || (parseInt(a[i]) > parseInt(b[i]))) {
+                    return 1;
+                } else if ((b[i] && !a[i] && parseInt(b[i]) > 0) || (parseInt(a[i]) < parseInt(b[i]))) {
+                    return -1;
+                }
+            }
+            return 0;
+        }
+
+        // get youth/kankan version
+        var kankan_version = 0;
+        var flag;
+        if (flag = /baiduboxvision\/([\d+.]+)/.exec(userAgent)) {
+            kankan_version = flag[1];
+        }
+
+        var kankanName = versionCompare(kankan_version, '2.0.0.0') >= 0 ? 'youth' : 'kankan';
+        kankanName = versionCompare(kankan_version, '2.8.0.0') >= 0 ? 'wonder' : kankanName;
+        var htmlName = isLite ? (isBrowser ? 'browser' : isHao123 ? 'hao123' : isMissionBox ? 'mission' : 'lite') : isKankan ? kankanName : isTomas ? 'tomas' : isSenior ? 'senior' : isMissionBox ? 'mission' : 'main';
+
+        var timestamp = +new Date();
+        var t = timestamp - timestamp % 86400000;
+        $iframe.id = 'content';
+        $iframe.src = ['./privacy_', '.html?t=' + t].join(htmlName);
+        $body.appendChild($iframe);
+    })();
+    </script>
+</body>
+
+</html>

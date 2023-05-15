@@ -1,0 +1,313 @@
+<!DOCTYPE html><html><head><script>
+                    window.host={
+                        HOST_PAN: "pan.baidu.com",
+                        HOST_D_PCS: "d.pcs.baidu.com",
+                        HOST_C_PCS: "c.pcs.baidu.com",
+                        HOST_NEST: "yq01nest.pcs.baidu.com",
+                        HOST_PCS_DATA: "pcsdata.baidu.com",
+                        HOST_PCS: "pcs.baidu.com",
+                        HOST_BAIDU_PCS: "baidupcs.com",
+                        HOST_THUMBNAIL: "thumbnail.baidupcs.com",
+                        PASS_TPL: "netdisk",
+                        SOURCE_VALUE: "10"
+                    }
+                </script><meta charset=utf-8><title>百度网盘</title><meta http-equiv=X-UA-Compatible content="IE=edge, chrome=1"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><meta content=网盘,百度网盘,百度云,网络U盘,网络硬盘,免费网盘,网盘下载,网盘资源,同步,云存储,外链分享,离线下载 name=keywords><meta content=百度网盘为您提供文件的网络备份、同步和分享服务。空间大、速度快、安全稳固，支持教育网加速，支持手机端。注册使用百度网盘即可享受免费存储空间 name=description><meta name=renderer content=webkit><link rel=dns-prefetch href=//pcs.baidu.com><link rel=dns-prefetch href=//pcsdata.baidu.com><link rel=dns-prefetch href=//passport.baidu.com><link rel=dns-prefetch href=//yun.baidu.com><link rel=dns-prefetch href=//d.pcs.baidu.com><link rel=dns-prefetch href=//c.pcs.baidu.com><link rel=dns-prefetch href=//nd-static.bdstatic.com><link rel="shortcut icon" href=https://nd-static.bdstatic.com/m-static/v20-main/favicon-main.ico><script>if (window.performance && window.performance.now) {
+            window['__perf_white_screen'] = Math.round(window.performance.now && window.performance.now());
+        }
+        window.__V20_VER__ = '3/9/2023, 1:19:05 PM';</script><script>window.locals = {"csrf":"L5pcoBnZ-sZ4h3Zd28SBnaf3rFUMCwhsi1Yw","isInCompany":false,"isLogin":0,"locked":false,"uk":0,"userInfo":{"vip_identity":1,"uk":0,"photo_url":"","username":"","bdstoken":"","svip10_id":""}};</script><!--[if !IE]><!--><script src=https://staticiot.cdn.bcebos.com/union/badjs-sdk-min-2.0.0.js></script><script>var HOST_PAN = ((window.host && window.host.HOST_PAN) || 'pan.baidu.com');
+        window.BadJs && (window.BadSDK = new BadJs({
+            host: 'https://' + HOST_PAN,
+            path: '/bpapi/analytics',
+            namespace: 'netdisk_web_v20main',
+            productId: '100720',
+            rules: {path: true, hash: /(\/\w+)+/},
+            clienttype: 0,
+            promiseError: false,
+            vueError: true,
+            // TODO: server模板待增加uk参数
+            uk: window.locals && window.locals.uk,
+            env: window,
+            downgrade: {
+                error: {p2: [/Script error/, /chrome-extension/]},
+                resource: {p2: [/hm.baidu.com/, /webpush.pan.baidu.com/]}
+            }
+        }));</script><!--<![endif]--><style>#page {
+            box-sizing: border-box;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 200;
+            background: #fff;
+            display: none;
+            overflow: scroll;
+        }
+
+        #page {
+            height: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        #main-content {
+            max-width: 1068px;
+            width: 1068px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -178px 0 0 -534px;
+        }
+
+        #main-content.gt-four-browsers {
+            margin-top: -254px;
+        }
+
+        #art {
+            display: inline-block;
+            float: left;
+        }
+
+        #browsers {
+            display: inline-block;
+            margin-left: 48px;
+            max-width: 592px;
+            width: 592px;
+            float: left;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-family: PingFangSC-Regular, sans-serif, Microsoft YaHei, SimHei, Tahoma !important;
+            font-weight: 500;
+            margin-bottom: 16px;
+            font-size: 32px;
+            line-height: 48px;
+        }
+
+        #browsers p {
+            margin-bottom: 24px;
+            line-height: 21px;
+        }
+
+        .browser_not_supported-tip {
+            margin-top: 100px;
+            float: left;
+        }
+
+        .browsers-list {
+            height: 141px;
+            float: left;
+            margin-bottom: 16px;
+        }
+
+        .browser {
+            width: 136px;
+            margin: 0 16px 16px 0;
+            background: #f3f3f3;
+            border-radius: 4px;
+            float: left;
+        }
+
+        .browser a {
+            display: block;
+            width: 104px;
+            margin: 16px 16px;
+            color: #0d0d0d;
+            box-sizing: content-box;
+            text-align: center;
+        }
+
+        .browser a:visited {
+            color: #0d0d0d;
+        }
+
+        .browser h3 {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            text-align: center;
+        }
+
+        @media (max-width: 1127px) {
+            #main-content {
+                max-width: 1030px;
+            }
+
+            #art {
+                width: 390px;
+                height: 260px;
+            }
+        }
+
+        @media (max-width: 1069px) {
+            #main-content {
+                position: relative;
+                top: inherit;
+                left: inherit;
+                margin: 0 auto;
+                max-width: 640px;
+                text-align: center;
+            }
+
+            #main-content.gt-four-browsers {
+                margin-top: 0;
+            }
+
+            #browsers {
+                margin-bottom: 24px;
+                margin-left: 0;
+            }
+
+        }
+
+        @media (max-width: 647px) {
+            #main-content {
+                margin: 16px auto;
+                max-width: 440px;
+            }
+
+            #art {
+                width: 360px;
+                height: 240px;
+            }
+
+            .browsers-list {
+                margin-right: -16px;
+                text-align: left;
+            }
+        }
+
+        @media (max-width: 491px) {
+            #main-content {
+                max-width: 288px;
+            }
+
+            h1 {
+                font-size: 32px;
+                line-height: 40px;
+            }
+
+            #art {
+                width: 300px;
+                height: 200px;
+            }
+        }
+
+        #loading-container {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        @-webkit-keyframes rotator {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+
+            100% {
+                -webkit-transform: rotate(270deg);
+                transform: rotate(270deg);
+                -ms-transform: rotate(360deg)
+            }
+        }
+        @keyframes rotator {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+
+            100% {
+                -webkit-transform: rotate(270deg);
+                transform: rotate(270deg);
+                -ms-transform: rotate(360deg)
+            }
+        }
+
+        #loading-container .spinner {
+            -webkit-animation: rotator 1.4s linear infinite;
+            animation: rotator 1.4s linear infinite;
+        }
+
+        #loading-container .spinner .path {
+            stroke-dasharray: 187;
+            stroke-dashoffset: 50;
+            -webkit-transform-origin: center;
+            transform-origin: center;
+            stroke: #4285F4;
+            -webkit-animation: dash 1.4s ease-in-out infinite;
+            animation: dash 1.4s ease-in-out infinite;
+        }</style><!--[if lte IE 8]>
+        <style>
+            #page {
+                display: block;
+            }
+        </style>
+        <script type="text/javascript">
+            var img = new Image();
+            var commonSrc = '/api/analytics?clienttype=0&version=v20&type=web_v20_';
+            img.src = commonSrc + 'no_support';
+        </script>
+    <![endif]--><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-01991271.be6ff856.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-0e9daeac.38e33a11.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-140cc780.18357618.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-15dd5fdf.03ac4c83.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-15fa79b0.dac2b683.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-1a9cd2eb.5f92e8ef.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-1c4eb0d6.51d42dbb.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-2750d2d3.53f59bd1.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-28235bf2.34aed53c.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-3281f7a8.5cbcdc29.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-3ac7c4a5.bd60d212.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-407129ec.a4a8804e.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-4cc38be5.8235f218.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-652789b1.169c7045.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-6872ee13.9bc7fd17.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-69f502f0.f973db2f.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-6a12ef4f.bdab2119.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-6a60ba2f.cd92267a.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-6ab4af0c.5f92e8ef.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-6c4d2f14.71916bc1.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-6c6d0793.0fd7fa3d.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-709d9ff8.703b2e91.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-72e1fd9a.e7c1a03b.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-74dc03f6.3b271c29.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-74ec9ccf.be50fac5.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-75da2325.c604c870.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-75e62f4b.5f92e8ef.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-7d1e8244.5f92e8ef.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-82c964b4.b076421a.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-be1e8388.296221b0.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-cf6038a2.e36e778d.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-dae2beb6.4940e180.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-ebbdd102.99227845.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-eef36bb0.0f2ebe57.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-f4b423d8.5f92e8ef.css rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-01991271.d0d74c23.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-0e9daeac.d10eaa64.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-140cc780.dc0ce301.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-15dd5fdf.45ae81c4.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-15fa79b0.8a71d345.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-1783b158.f0fef65f.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-1a9cd2eb.51430465.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-1c4eb0d6.019de911.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-1f4c3257.dacb277f.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-2750d2d3.f9217826.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-28235bf2.7842b222.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-2d0a3c58.eecab372.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-2d0ba461.229905a0.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-2d0bac3a.1c99d2b6.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-2d0cfaf1.5d82eb85.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-2d0cfca2.25de1189.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-2d0d2ae9.30837217.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-2d0e13a4.dcf9c41a.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-2d0e2183.9eaf2daa.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-2d0e9b9f.50cb7d16.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-2d225474.b4471509.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-3281f7a8.1f04c693.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-3ac7c4a5.717ee1ca.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-407129ec.256bbd24.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-4cc38be5.675e5d74.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-57545619.52cf564a.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-652789b1.2817aec7.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-6872ee13.8a0be2a1.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-69f502f0.b6dd1c67.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-6a12ef4f.c4321779.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-6a60ba2f.fc70e424.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-6ab4af0c.8efab9a7.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-6c4d2f14.5ec7108c.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-6c6d0793.37d0ca69.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-709d9ff8.5c993768.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-72e1fd9a.420cba07.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-74dc03f6.3bcdd4d0.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-74ec9ccf.fc38959a.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-75da2325.6d19ea22.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-75e62f4b.6839650a.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-762c0d82.b6d4cacb.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-7d1e8244.0c54c848.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-82c964b4.524e7d47.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-be1e8388.97f07949.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-cf6038a2.7cb73f69.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-dae2beb6.527f977e.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-ebbdd102.435f2ca9.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-eef36bb0.15d99246.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-f4b423d8.8cae6bf6.js rel=prefetch><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-vendors.b657801f.css rel=preload as=style><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/home.4f52d7c8.css rel=preload as=style><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-vendors.8f7f801a.js rel=preload as=script><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/js/home.60739c28.js rel=preload as=script><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/chunk-vendors.b657801f.css rel=stylesheet><link href=https://nd-static.bdstatic.com/m-static/v20-main/home/css/home.4f52d7c8.css rel=stylesheet></head><body><!--[if lte IE 8]>
+    <div id="page">
+        <div id="main-content" class="gt-four-browsers">
+            <img class="browser_not_supported-tip" id="art" width="420px" height="280px"
+                src="https://ndstatic.cdn.bcebos.com/tongxunlu/images/browser_not_supported.png">
+            <div id="browsers">
+                <h1>您正在使用的浏览器版本过低，将不能正常访问该页面!</h1>
+                <p>您可以安装以下浏览器的最新版本来使用网盘的最新功能！</p>
+                <div class="browsers-list">
+                    <div class="browser">
+                        <a href="https://www.apple.com/safari/">
+                            <img src="https://ndstatic.cdn.bcebos.com/tongxunlu/images/safari.png" alt="" width="72px"
+                                height="72px">
+                            <h3>Safari</h3>
+                        </a>
+                    </div>
+                    <div class="browser">
+                        <a href="https://www.mozilla.org/firefox/new/">
+                            <img src="https://ndstatic.cdn.bcebos.com/tongxunlu/images/firefox.png" alt="" width="72px"
+                                height="72px">
+                            <h3>Mozilla Firefox</h3>
+                        </a>
+                    </div>
+                    <div class="browser">
+                        <a href="https://www.microsoft.com/edge">
+                            <img src="https://ndstatic.cdn.bcebos.com/tongxunlu/images/edgium.png" alt="" width="72px"
+                                height="72px">
+                            <h3>Microsoft Edge</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="browsers-list">
+                    <div class="browser">
+                        <a href="https://www.google.com/chrome/index.html">
+                            <img src="https://ndstatic.cdn.bcebos.com/tongxunlu/images/chrome.png" alt="" width="72px"
+                                height="72px">
+                            <h3>Google Chrome</h3>
+                        </a>
+                    </div>
+                    <div class="browser last">
+                        <a href="https://www.opera.com/">
+                            <img src="https://ndstatic.cdn.bcebos.com/tongxunlu/images/opera.png" alt="" width="72px"
+                                height="72px">
+                            <h3>Opera</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <![endif]--><div id=app><div id=loading-container><svg class=spinner width=26px height=26px viewBox="0 0 66 66" xmlns=http://www.w3.org/2000/svg><circle class=path fill=none stroke-width=6 stroke-linecap=round cx=33 cy=33 r=30 style=stroke:#09aaff></circle></svg></div><img style=position:absolute;top:-10px;left:-10px;width:1px;height:1px;display:none; src="//pcs.baidu.com/rest/2.0/pcs/file?method=plantcookie&type=ett"> <img style=position:absolute;top:-10px;left:-10px;width:1px;height:1px;display:none; src="//pcs.baidu.com/rest/2.0/pcs/file?method=plantcookie&type=stoken&source=pcs"> <img style=position:absolute;top:-10px;left:-10px;width:1px;height:1px;display:none; src="//pcsdata.baidu.com/rest/2.0/pcs/file?method=plantcookie&type=stoken&source=pcsdata"></div><script>if (window.location.href.match(/(protocol\/duty_mobi_tv)|(protocol\/vipduty_tv)|(protocol\/autoduty_tv)|(protocol\/privacy_policy_tv)/)) {
+            document.body.style.background = 'transparent';
+        }</script><script src=https://nd-static.bdstatic.com/m-static/v20-main/home/js/chunk-vendors.8f7f801a.js></script><script src=https://nd-static.bdstatic.com/m-static/v20-main/home/js/home.60739c28.js></script></body><script>var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?0ba7bcf57b5e55fbfbab9a2750acdf3e";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+    })();</script></html>
